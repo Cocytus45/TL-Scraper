@@ -11,8 +11,8 @@ Only spent a couple minutes on this so not optimized PRs welcome.
 ```python
 import tl_scraper
 
-u = 'REPLACE_WITH_YOUR_USERNAME'
-p = 'REPLACE_WITH_YOUR_PASSWORD'
+username = 'REPLACE_WITH_YOUR_USERNAME'
+password = 'REPLACE_WITH_YOUR_PASSWORD'
 
 scraper = tl_scraper.Scraper()
 data = scraper.login(username=username, password=password)
