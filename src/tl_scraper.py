@@ -4,7 +4,11 @@ from bs4 import BeautifulSoup
 
 
 class Scraper:
-    def __init__(self, username: str, password: str, auth_key: str = None):
+    def __init__(self, 
+                 username: str, 
+                 password: str, 
+                 auth_key: str = None, 
+                 url: str = 'https://www.torrentleech.me'):
         """
         This is a constructor function that initializes the object with a URL,
         username, password, and an optional authentication key.
@@ -22,7 +26,7 @@ class Scraper:
         their username and password each time they make
         :type auth_key: str
         """
-        self.url = 'https://www.torrentleech.me'
+        self.url = url
         self.username = username
         self.password = password
         self.auth_key = auth_key
