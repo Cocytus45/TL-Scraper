@@ -12,12 +12,11 @@ With 2FA
 ```python
 import tl_scraper
 
-scraper = tl_scraper.Scraper(username=username, password=password, auth_key=auth_key)
-
 username = 'REPLACE_WITH_YOUR_USERNAME'
 password = 'REPLACE_WITH_YOUR_PASSWORD'
 auth_key = 'REPLACE_WITH_YOUR_FULL_AUTH_KEY'
 
+scraper = tl_scraper.Scraper(username=username, password=password, auth_key=auth_key)
 data = scraper.login()
 
 username = data[0]
@@ -38,11 +37,10 @@ Without 2FA
 ```python
 import tl_scraper
 
-scraper = tl_scraper.Scraper(username=username, password=password)
-
 username = 'REPLACE_WITH_YOUR_USERNAME'
 password = 'REPLACE_WITH_YOUR_PASSWORD'
 
+scraper = tl_scraper.Scraper(username=username, password=password)
 data = scraper.login()
 
 username = data[0]
