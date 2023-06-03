@@ -3,7 +3,6 @@
 ### Overview:
 Python script to pull stats from your torrentleech account.<br>
 View the usage variables to see stats it can pull.<br>
-Only spent a couple minutes on this so not optimized PRs welcome.
 
 **Use at your own discretion don't spam the site, I'm not responsible if you get banned or otherwise.**
 
