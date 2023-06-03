@@ -55,3 +55,28 @@ buffer = data[9]
 ratio = data[10]
 hit_and_runs = data[11]
 ```
+
+With specific website
+```python
+import tl_scraper
+
+username = 'REPLACE_WITH_YOUR_USERNAME'
+password = 'REPLACE_WITH_YOUR_PASSWORD'
+url = 'REPLACE_WITH_URL'
+
+scraper = tl_scraper.Scraper(username=username, password=password, url=url)
+data = scraper.login()
+
+username = data[0]
+notifications = data[1]
+uploaded = data[2]
+downloaded = data[3]
+achievement = data[4]
+points = data[5]
+requests = data[6]
+invites = data[7]
+lottery_tickets = data[8]
+buffer = data[9]
+ratio = data[10]
+hit_and_runs = data[11]
+```
