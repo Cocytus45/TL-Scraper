@@ -57,6 +57,9 @@ hit_and_runs = data[11]
 ```
 
 With specific website
+
+
+*Currently I'm unable to get it to pull data from sites other then https://www.torrentleech.me but your're welcome to submit a PR if you're able to figure it out. As of right now it works for my use case and I haven't run into any serious issues. I'll look into it further if it becomes a problem.
 ```python
 import tl_scraper
 
